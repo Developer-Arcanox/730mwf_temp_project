@@ -6,6 +6,7 @@ data = {
     "Salary": [50000, 60000, 55000, 65000, 70000, 200],
 }
 
+
 df = pd.DataFrame(data)
 
 # df_pivot = df.pivot_table(
@@ -15,4 +16,4 @@ df = pd.DataFrame(data)
 # print(df_pivot)
 
 df_crosstab = pd.crosstab(df["Department"], df["Employee"])
-print(df_crosstab)
+print("Hello")
